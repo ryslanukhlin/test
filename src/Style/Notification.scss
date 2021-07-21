@@ -1,0 +1,43 @@
+.notification {
+    padding: 8px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 56px;
+    img {
+        position: relative;
+    }
+
+    &__info {
+        margin-left: 16px;
+    }
+
+    .image__badge {
+        z-index: 1;
+        left: 40px;
+        top: 8px;
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        display: flex;
+        padding: 4.5px;
+    }
+
+    &__name {
+        font-size: 12px;
+        margin-bottom: 4px;
+        font-weight: 300;
+    }
+    &__description {
+        font-size: 10px;
+        color: #aaaaaa;
+    }
+    &__date {
+        position: absolute;
+        right: 8px;
+        font-size: 10px;
+        color: #aaaaaa;
+    }
+}
